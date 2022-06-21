@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_videos">
+
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="com.ganeshgundu.scalertest.view.videos.VideosFragment"
+        android:label="@string/title_videos"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.ganeshgundu.scalertest.view.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_videos" />
+
+</navigation>
