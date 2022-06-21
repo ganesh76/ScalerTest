@@ -5,7 +5,7 @@ Developed as part of Assigment Round
 ## Description
 
 * Kotlin with MVVM 
-* Used jetpack navgition retrofit with moshi and Exoplayer
+* Used jetpack navigation with retrofit, moshi and Exoplayer
 * Used room db for sorting based on view count and timestamp 
 
 <img src="Screenshot_1.png"  width=250> <img src="Screenshot_2.png"  width=250>
